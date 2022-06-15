@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>FKI E-Mentoring</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  
+<style>
+.login-container{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.login-form-1{
+    padding: 5%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-1 h3{
+    text-align: center;
+    color: #fff;
+}
+.login-form-2{
+    padding: 5%;
+    background:;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-2 h3{
+    text-align: center;
+    color: #fff;
+}
+.login-container form{
+    padding: 10%;
+}
+.btnSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}
+.login-form-1 .btnSubmit{
+    font-weight: 600;
+    color: #fff;
+    background-color: #0062cc;
+}
+.login-form-2 .btnSubmit{
+    font-weight: 600;
+    color: #0062cc;
+    background-color: #fff;
+}
+
+
+</style>
+</head>
+<body>
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo me-auto"><a href="index.html">FKI E-Mentoring</a></h1>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="active" href="index.php">Home</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+    </div>
+  </header>
+  <section id="hero" class=" justify-content-center align-items-center">
+
+  
+  <div class="container position-relative login-container" data-aos="zoom-in" data-aos-delay="100">
+  <h1>Faculty Of Computing & Informatics</h1>
+      <h2>Sign up now if you still don't have an account.</h2>
+            <div class="row">
+                <div class="col-md-6 login-form-1">
+                    <h3>Register As Mentee</h3>
+                     <form action="http://localhost/fkimentorship/register_action.php" method="POST">
+                        <div class="form-group">
+                           <input type="email" class="form-control" required placeholder="Your email" name="userEmail">
+                        </div>
+                        <div class="form-group">
+                           <input type="text" class="form-control" required placeholder="Your name" name="userName">
+                        </div>
+						<div class="form-group">
+                           <input type="number" class="form-control" required placeholder="Your Phone Number" name="user_phone_num">
+                        </div>
+						<div class="form-group">
+                           <input type="password" class="form-control" required placeholder="Your password" name="userPwd" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" class="btnSubmit" value="Register" />
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6 login-form-2">
+                    <h3>Register As Mentor</h3>
+                      <form action="http://localhost/fkimentorship/register_actionmentor.php" method="POST">
+                         <div class="form-group">
+                           <input type="email" class="form-control" required placeholder="Your email" name="userEmail">
+                        </div>
+                        <div class="form-group">
+                           <input type="text" class="form-control" required placeholder="Your name" name="userName">
+                        </div>
+						<div class="form-group">
+                           <input type="number" class="form-control" required placeholder="Your Phone Number" name="user_phone_num">
+                        </div>
+						<div class="form-group">
+                           <input type="password" class="form-control" required placeholder="Your password" name="userPwd" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" class="btnSubmit" value="Register" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+   </section>
+    <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>FKI E-Mentoring Admin</h3>
+            <p>
+              Faculty Of Computing and Informatics<br>
+              Univerity Malaysia Sabah<br>
+              Sabah, Malaysia <br><br>
+              <strong>Phone:</strong>0194914108<br>
+              <strong>Email:</strong>fkimentoringums@gmail.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="http://fki.ums.edu.my/fki/">FKI UMS Website</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://smp.ums.edu.my/">SMP UMS Website</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://smartv3.ums.edu.my/">SMART V3 UMS Website</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>FKI Courses</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Software Engineering</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Network Engineering</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Multimedia Technology</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Business Computing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Data Science</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>FKI Mentoring Programme</h4>
+            <p>"Providing a platform for students to connect with their mentors."</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; Copyright <strong><span>FKI E-Mentoring</span></strong>. All Rights Reserved
+        </div>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
